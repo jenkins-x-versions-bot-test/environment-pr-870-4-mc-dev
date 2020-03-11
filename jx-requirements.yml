@@ -17,9 +17,9 @@ cluster:
   zone: europe-west1-c
 environments:
 - ingress:
-    domain: ""
+    domain: 35.240.67.237.nip.io
     externalDNS: false
-    namespaceSubDomain: ""
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
@@ -51,7 +51,7 @@ environments:
 gitops: true
 helmfile: true
 ingress:
-  domain: ""
+  domain: 35.240.67.237.nip.io
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
